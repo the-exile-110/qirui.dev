@@ -1,23 +1,9 @@
 module.exports = {
-    "printWidth": 80,
-    "tabWidth": 4,
-    "singleQuote": true,
-    "jsxSingleQuote": true,
-    "semi": false,
-    "useTabs": true,
-    "importOrder": [
-        "^(react/(.*)$)|^(react$)",
-        "^(next/(.*)$)|^(next$)",
-        "<THIRD_PARTY_MODULES>",
-        "",
-        "^types$",
-        "^@local/(.*)$",
-        "^@/config/(.*)$",
-        "^@/lib/(.*)$",
-        "^@/components/(.*)$",
-        "^@/styles/(.*)$",
-        "^[./]"
-    ],
-    "importOrderSeparation": true,
-    "importOrderSortSpecifiers": true
+  semi: false,
+  singleQuote: true,
+  printWidth: 100,
+  tabWidth: 2,
+  useTabs: false,
+  trailingComma: 'es5',
+  bracketSpacing: true,
 }
